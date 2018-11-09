@@ -46,12 +46,12 @@
 						<h2 class="pricing-plan">Play Básico</h2>
 						<div class="price">R$ 119,90<small>/mês</small></div>
 						<p></p>
-						<hr>
 						<ul class="pricing-info">
-							<li><div class="pricing-info-icon"><img src="images/banda-larga2.svg"></div>Internet 15 MB</li>
-							<li><div class="pricing-info-icon"><img src="images/fixo.svg"></div>Telefone Fixo Ilimitado</li>
-							<li>OI WIFI Fora de casa</li>
-							<li><img style="width: 120px; margin-top: 15px; text-align: center;" src="images/colecaooi.png"></li>
+							<li><div class="pricing-info-icon"><img width="30" src="images/banda-larga.svg"></div>Internet 15 MB</li>
+							<li><div class="pricing-info-icon"><img width="32" src="images/fixo.svg"></div>Telefone Fixo Ilimitado</li>
+							<li><div class="pricing-info-icon"><img width="26" src="images/internet-celular.svg"></div>OI WIFI Fora de casa</li>
+							
+							<li style="margin: 0 auto; text-align: center;"><img style="width: 120px; padding-top: 10px;" src="images/colecaooi.png"></li>
 						</ul>
 						<a href="#" class="btn btn-primary btn-sm">Aderir</a>
 					</div>
@@ -62,12 +62,12 @@
 						<h2 class="pricing-plan">Play Intermediário</h2>
 						<div class="price">R$ 139,90<small>/mês</small></div>
 						<p></p>
-						<hr>
 						<ul class="pricing-info">
-							<li>Internet 15 MB</li>
-							<li>Telefone Fixo Ilimitado</li>
-							<li>OI WIFI Fora de Casa</li>
-							<li><img style="width: 200px; margin-top: 15px;" src="images/playintermediario.png"></li>
+							<li><div class="pricing-info-icon"><img width="30" src="images/banda-larga.svg"></div>Internet 15 MB</li>
+							<li><div class="pricing-info-icon"><img width="32" src="images/fixo.svg"></div>Telefone Fixo Ilimitado</li>
+							<li><div class="pricing-info-icon"><img width="26" src="images/internet-celular.svg"></div>OI WIFI Fora de casa</li>
+							
+							<li style="margin: 0 auto; text-align: center;"><img style="width: 120px; padding-top: 10px;" src="images/playtop.png"></li>
 						</ul>
 						<a href="#" class="btn btn-primary btn-sm">Aderir</a>
 					</div>
@@ -77,13 +77,12 @@
 						<h2 class="pricing-plan">Play Top</h2>
 						<div class="price">R$ 164,90<small>/mês	</small></div>
 						<p></p>
-						<hr>
 						<ul class="pricing-info">
-							<li>Internet 15 MB</li>
-							<li>Telefone Fixo Ilimitado</li>
-							<li>OI WIFI Fora de Casa</li>
-							<li>Play Intermediário +</li>
-							<li><img style="width: 120px; margin-top: 15px;" src="images/playtop.png"></li>
+							<li><div class="pricing-info-icon"><img width="30" src="images/banda-larga.svg"></div>Internet 15 MB</li>
+							<li><div class="pricing-info-icon"><img width="32" src="images/fixo.svg"></div>Telefone Fixo Ilimitado</li>
+							<li><div class="pricing-info-icon"><img width="26" src="images/internet-celular.svg"></div>OI WIFI Fora de casa</li>
+							
+							<li style="margin: 0 auto; text-align: center;"><img style="width: 120px; padding-top: 10px;" src="images/playtop.png"></li>
 						</ul>
 						<a href="#" class="btn btn-primary btn-sm">Aderir</a>
 					</div>
