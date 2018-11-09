@@ -151,8 +151,11 @@
 							<li><div class="pricing-info-icon"><img width="30" src="images/banda-larga.svg"></div>Internet 15 MB</li>
 							<li><div class="pricing-info-icon"><img width="32" src="images/fixo.svg"></div>Telefone Fixo Ilimitado</li>
 							<li><div class="pricing-info-icon"><img width="26" src="images/internet-celular.svg"></div>OI WIFI Fora de casa</li>
+							<li><div class="pricing-info-icon"><img width="34" src="images/icon-oiplay.svg"></div>+ de 16 mil títulos</li>
 							
-							<li style="margin: 0 auto; text-align: center;"><img style="width: 120px; padding-top: 10px;" src="images/colecaooi.png"></li>
+							<li style="margin: 0 auto; text-align: center;">
+								<img style="width: 100px; padding-top: 10px;" src="images/logo-colecao-oi-oi-play.png">
+							</li>
 						</ul>
 						<a href="#" class="btn btn-primary btn-sm">Aderir</a>
 					</div>
@@ -167,8 +170,14 @@
 							<li><div class="pricing-info-icon"><img width="30" src="images/banda-larga.svg"></div>Internet 15 MB</li>
 							<li><div class="pricing-info-icon"><img width="32" src="images/fixo.svg"></div>Telefone Fixo Ilimitado</li>
 							<li><div class="pricing-info-icon"><img width="26" src="images/internet-celular.svg"></div>OI WIFI Fora de casa</li>
+							<li><div class="pricing-info-icon"><img width="34" src="images/icon-oiplay.svg"></div>+ de 30 mil títulos</li>
 							
-							<li style="margin: 0 auto; text-align: center;"><img style="width: 120px; padding-top: 10px;" src="images/playtop.png"></li>
+							<li style="margin: 0 auto; text-align: center;">
+								<img style="width: 85px; margin: 0 5px" src="images/logo-colecao-oi-oi-play.png">
+								<img style="width: 70px; margin: 0 5px" src="images/espn.png">
+								<img style="width: 70px; margin: 0 5px" src="images/discovery-kids.png">
+								<img style="width: 80px; margin: 0 5px" src="images/crackle.png">
+							</li>
 						</ul>
 						<a href="#" class="btn btn-primary btn-sm">Aderir</a>
 					</div>
@@ -182,8 +191,12 @@
 							<li><div class="pricing-info-icon"><img width="30" src="images/banda-larga.svg"></div>Internet 15 MB</li>
 							<li><div class="pricing-info-icon"><img width="32" src="images/fixo.svg"></div>Telefone Fixo Ilimitado</li>
 							<li><div class="pricing-info-icon"><img width="26" src="images/internet-celular.svg"></div>OI WIFI Fora de casa</li>
+							<li><div class="pricing-info-icon"><img width="34" src="images/icon-oiplay.svg"></div>Canais Intermediário +</li>
 							
-							<li style="margin: 0 auto; text-align: center;"><img style="width: 120px; padding-top: 10px;" src="images/playtop.png"></li>
+							<li style="margin: 0 auto; text-align: center;">
+								<img style="width: 70px; margin: 0 5px" src="images/hbo-go.png">
+								<img style="width: 30px; margin: 0 5px" src="images/fox-app-traco.png">
+							</li>
 						</ul>
 						<a href="#" class="btn btn-primary btn-sm">Aderir</a>
 					</div>
@@ -247,20 +260,20 @@
 						  	<div class="col-sm-8">
 									<li class="animate-box">
 										<div class="row">
-											<div class="col-sm-8" style="border-bottom: 1px solid #f1f1f1"><h2>Internet Banda Larga 25 Mega</h2></div>
-											<div class="col-sm-4" style="border-bottom: 1px solid #f1f1f1"><h2>+10,00/mês</h2></div>
+											<div class="col-sm-8"><h2>Internet Banda Larga 25 Mega</h2></div>
+											<div class="col-sm-4"><h2>+10,00/mês</h2></div>
 										</div>
 									</li>
 									<li class="animate-box">
 										<div class="row">
-											<div class="col-sm-8" style="border-bottom: 1px solid #f1f1f1"><h2>Internet Banda Larga 35 Mega</h2></div>
-											<div class="col-sm-4" style="border-bottom: 1px solid #f1f1f1"><h2>+20,00/mês</h2></div>
+											<div class="col-sm-8"><h2>Internet Banda Larga 35 Mega</h2></div>
+											<div class="col-sm-4"><h2>+20,00/mês</h2></div>
 										</div>
 									</li>
 									<li class="animate-box">
 										<div class="row">
-											<div class="col-sm-8" style="border-bottom: 1px solid #f1f1f1"><h2>Pontos adicionais pra TV*</h2></div>
-											<div class="col-sm-4" style="border-bottom: 1px solid #f1f1f1"><h2>+24,90/mês</h2></div>
+											<div class="col-sm-8"><h2>Pontos adicionais pra TV*</h2></div>
+											<div class="col-sm-4"><h2>+24,90/mês</h2></div>
 										</div>
 									</li>
 								</div>

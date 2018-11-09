@@ -36,68 +36,61 @@
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>Oi Total Play</h2>
-					<p>Internet de alta velocidade e milhares de filmes e séries com o Coleção OI</p>
+					<h2>Total Residencial</h2>
+					<p>Veja o melhor da programação na sua TV</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4">
 					<div class="price-box">
-						<h2 class="pricing-plan">Play Básico</h2>
-						<div class="price">R$ 119,90<small>/mês</small></div>
+						<h2 class="pricing-plan">TV Básico</h2>
+						<div class="price">R$ 194,90<small>/mês</small></div>
 						<p></p>
 						<ul class="pricing-info">
+							<li><div class="pricing-info-icon"><img width="30" src="images/tv.svg"></div>125 canais 27 em HD</li>
 							<li><div class="pricing-info-icon"><img width="30" src="images/banda-larga.svg"></div>Internet 15 MB</li>
 							<li><div class="pricing-info-icon"><img width="32" src="images/fixo.svg"></div>Telefone Fixo Ilimitado</li>
 							<li><div class="pricing-info-icon"><img width="26" src="images/internet-celular.svg"></div>OI WIFI Fora de casa</li>
-							<li><div class="pricing-info-icon"><img width="34" src="images/icon-oiplay.svg"></div>+ de 16 mil títulos</li>
-							
-							<li style="margin: 0 auto; text-align: center;">
-								<img style="width: 100px; padding-top: 10px;" src="images/logo-colecao-oi-oi-play.png">
-							</li>
+							<li><div class="pricing-info-icon"><img width="34" src="images/icon-oiplay.svg"></div>Coleção OI</li>
 						</ul>
 						<a href="#" class="btn btn-primary btn-sm">Aderir</a>
+						<hr>
+						<a href="#">Ver Grade</a>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="price-box popular">
 						<div class="popular-text">Popular</div>
-						<h2 class="pricing-plan">Play Intermediário</h2>
-						<div class="price">R$ 139,90<small>/mês</small></div>
+						<h2 class="pricing-plan">TV Intermediário</h2>
+						<div class="price">R$ 204,90<small>/mês</small></div>
 						<p></p>
 						<ul class="pricing-info">
+							<li><div class="pricing-info-icon"><img width="30" src="images/tv.svg"></div>168 canais 56 em HD</li>
 							<li><div class="pricing-info-icon"><img width="30" src="images/banda-larga.svg"></div>Internet 15 MB</li>
 							<li><div class="pricing-info-icon"><img width="32" src="images/fixo.svg"></div>Telefone Fixo Ilimitado</li>
 							<li><div class="pricing-info-icon"><img width="26" src="images/internet-celular.svg"></div>OI WIFI Fora de casa</li>
-							<li><div class="pricing-info-icon"><img width="34" src="images/icon-oiplay.svg"></div>+ de 30 mil títulos</li>
-							
-							<li style="margin: 0 auto; text-align: center;">
-								<img style="width: 85px; margin: 0 5px" src="images/logo-colecao-oi-oi-play.png">
-								<img style="width: 70px; margin: 0 5px" src="images/espn.png">
-								<img style="width: 70px; margin: 0 5px" src="images/discovery-kids.png">
-								<img style="width: 80px; margin: 0 5px" src="images/crackle.png">
-							</li>
+							<li><div class="pricing-info-icon"><img width="30" src="images/tv.svg"></div>1 ponto pdicional prátis</li>
 						</ul>
 						<a href="#" class="btn btn-primary btn-sm">Aderir</a>
+						<hr>
+						<a href="#">Ver Grade</a>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="price-box">
-						<h2 class="pricing-plan">Play Top</h2>
-						<div class="price">R$ 164,90<small>/mês	</small></div>
+						<h2 class="pricing-plan">TV Top</h2>
+						<div class="price">R$ 264,90<small>/mês	</small></div>
 						<p></p>
 						<ul class="pricing-info">
+							<li><div class="pricing-info-icon"><img width="30" src="images/tv.svg"></div>195 canais 72 em HD</li>
+							<li><div class="pricing-info-icon"><img width="30" src="images/tv.svg"></div>Telecine ou HBO</li>
 							<li><div class="pricing-info-icon"><img width="30" src="images/banda-larga.svg"></div>Internet 15 MB</li>
 							<li><div class="pricing-info-icon"><img width="32" src="images/fixo.svg"></div>Telefone Fixo Ilimitado</li>
-							<li><div class="pricing-info-icon"><img width="26" src="images/internet-celular.svg"></div>OI WIFI Fora de casa</li>
-							<li><div class="pricing-info-icon"><img width="34" src="images/icon-oiplay.svg"></div>Canais Intermediário +</li>
-							
-							<li style="margin: 0 auto; text-align: center;">
-								<img style="width: 70px; margin: 0 5px" src="images/hbo-go.png">
-								<img style="width: 30px; margin: 0 5px" src="images/fox-app-traco.png">
-							</li>
+							<li><div class="pricing-info-icon"><img width="30" src="images/tv.svg"></div>1 ponto adicional prátis</li>
 						</ul>
 						<a href="#" class="btn btn-primary btn-sm">Aderir</a>
+						<hr>
+						<a href="#">Ver Grade</a>
 					</div>
 				</div>
 			</div>
@@ -109,30 +102,7 @@
 			<div class="row">
 				<div class="col-md-12 col-md-offset-0">
 					<ul class="fh5co-faq-list">
-						<li class="animate-box">
-							<h2 style="font-weight: 700; font-size: 35px; max-width: 450px">Oi Play: O melhor da TV quando você quiser</h2>
-							
-							
-							<div class="oiplay">
-
-								<div class="icons-oiplay">
-								<p>Além de todos os canais da sua Oi TV HD, a família toda pode assistir online a milhares de filmes, séries, desenhos, esportes e muito mais. E dá pra curtir tudo isso quando quiser, com total conforto, pelo computador, tablet ou celular. Você também pode aproveitar o Oi Play direto na sua TV.</p>
-									<img src="images/hbo-go.png">
-									<img src="images/logo-colecao-oi-oi-play.png">
-									<img src="images/crackle.png">
-									<img src="images/espn.png">
-									<img src="images/noggin.png">
-									<img src="images/discovery-kids.png">
-									<img src="images/fox-app-traco.png">	
-								</div>
-
-								<div style="max-width: 450px; margin: 0 40px">
-									<img style="width: 100%" src="images/oi-play_TV.png">
-								</div>
-							</div>
-						</li>
-
-						<div class="row" style="border-top: 3px solid #f1f1f1; padding: 30px 0">
+						<div class="row">
 						  	<div class="col-sm-4">
 						  		<li class="animate-box">
 										<h2>Vai incluso</h2>
@@ -169,21 +139,10 @@
 											<div class="col-sm-4"><h2>+20,00/mês</h2></div>
 										</div>
 									</li>
-								</div>
-						</div>
-
-						<div class="row" style="border-top: 3px solid #f1f1f1; padding: 30px 0">
-						  		<div class="col-sm-8">
-						  			<li class="animate-box">
-										<h2>Confira alguns conteúdos</h2>
-									</li>
-						  		</div>
-
-						  		<div class="col-sm-4">
 									<li class="animate-box">
 										<div class="row">
-											<div class="col-sm-4"><img style="width: 180px; vertical-align: middle;" src="images/got.png"></div>
-											<div class="col-sm-8"><img style="vertical-align: middle;" src="images/hbo-go.png"></div>
+											<div class="col-sm-8"><h2>Pontos adicionais pra TV*</h2></div>
+											<div class="col-sm-4"><h2>+24,90/mês</h2></div>
 										</div>
 									</li>
 								</div>
