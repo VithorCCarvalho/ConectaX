@@ -257,6 +257,12 @@
 											<div class="col-sm-4" style="border-bottom: 1px solid #f1f1f1"><h2>+20,00/mês</h2></div>
 										</div>
 									</li>
+									<li class="animate-box">
+										<div class="row">
+											<div class="col-sm-8" style="border-bottom: 1px solid #f1f1f1"><h2>Pontos adicionais pra TV*</h2></div>
+											<div class="col-sm-4" style="border-bottom: 1px solid #f1f1f1"><h2>+24,90/mês</h2></div>
+										</div>
+									</li>
 								</div>
 						</div>
 
