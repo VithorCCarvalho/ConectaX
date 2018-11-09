@@ -769,7 +769,20 @@ form label {
 .gtco-section.border-bottom {
   border-bottom: 1px solid #e6e6e6;
 }
-
+.oiplay {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.icons-oiplay {
+  max-width: 500px;
+}
+.icons-oiplay img{
+  margin: 20px;
+}
+.info-planos {
+  max-width: 700px;
+}
 #gtco-features-2 {
   background: #efefef;
   position: relative;
@@ -847,7 +860,7 @@ form label {
 }
 
 .gtco-heading {
-  margin-bottom: 5em;
+  margin-bottom: 2em;
 }
 .gtco-heading.gtco-heading-sm {
   margin-bottom: 2em;

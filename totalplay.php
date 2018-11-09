@@ -94,66 +94,72 @@
 	<div class="gtco-section">
 		<div class="gtco-container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-					<h2>Frequently Ask Questions</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
+				<div class="col-md-12 col-md-offset-0">
 					<ul class="fh5co-faq-list">
 						<li class="animate-box">
-							<h2>What is Splash?</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-						</li>
-						<li class="animate-box">
-							<h2>What language are available?</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-						</li>
-						<li class="animate-box">
-							<h2>I have technical problem, who do I email?</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-						</li>
-						<li class="animate-box">
-							<h2>Can I have a username that is already taken?</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-						</li>
-						<li class="animate-box">
-							<h2>How do I use Splash features?</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-						</li>
-						<li class="animate-box">
-							<h2>Is Splash free??</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
+							<h2 style="font-weight: 700; font-size: 35px; max-width: 450px">Oi Play: O melhor da TV quando você quiser</h2>
+							
+							
+							<div class="oiplay">
 
-	
-	<div id="gtco-subscribe">
-		<div class="gtco-container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>Subscribe</h2>
-					<p>Be the first to know about the new templates.</p>
-				</div>
-			</div>
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2">
-					<form class="form-inline">
-						<div class="col-md-6 col-sm-6">
-							<div class="form-group">
-								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Your Email">
+								<div class="icons-oiplay">
+								<p>Além de todos os canais da sua Oi TV HD, a família toda pode assistir online a milhares de filmes, séries, desenhos, esportes e muito mais. E dá pra curtir tudo isso quando quiser, com total conforto, pelo computador, tablet ou celular. Você também pode aproveitar o Oi Play direto na sua TV.</p>
+									<img src="images/hbo-go.png">
+									<img src="images/logo-colecao-oi-oi-play.png">
+									<img src="images/crackle.png">
+									<img src="images/espn.png">
+									<img src="images/noggin.png">
+									<img src="images/discovery-kids.png">
+									<img src="images/fox-app-traco.png">	
+								</div>
+
+								<div style="max-width: 450px; margin: 0 40px">
+									<img style="width: 100%" src="images/oi-play_TV.png">
+								</div>
 							</div>
+						</li>
+
+						<div class="row" style="border-top: 3px solid #f1f1f1; padding: 30px 0">
+						  	<div class="col-sm-4">
+						  		<li class="animate-box">
+										<h2>Vai incluso</h2>
+								</li>
+						  	</div>
+						  	<div class="col-sm-8">
+									<li class="animate-box">
+										<h2>Modem WiFi: dentro de casa</h2>
+										<p>1 modem de internet WiFi cedido em regime de comodato. Perfeito para conectar seus aparelhos dentro de casa: computadores, tablets, celulares, TVs, videogames e mais</p>
+									</li>
+									<li class="animate-box">
+										<h2>Oi WiFi: fora de casa</h2>
+										<p>Mais de 2 milhões de pontos de internet pelo Brasil pra você navegar fora de casa em aeroportos, restaurantes e em muitos outros locais.</p>
+									</li>
+								</div>
 						</div>
-						<div class="col-md-6 col-sm-6">
-							<button type="submit" class="btn btn-default btn-block">Subscribe</button>
+
+						<div class="row" style="border-top: 3px solid #f1f1f1; padding: 30px 0">
+						  	<div class="col-sm-4">
+						  		<li class="animate-box">
+										<h2>Você pode adicionar</h2>
+								</li>
+						  	</div>
+						  	<div class="col-sm-8">
+									<li class="animate-box">
+										<div class="row">
+											<div class="col-sm-8" style="border-bottom: 1px solid #f1f1f1"><h2>Internet Banda Larga 25 Mega</h2></div>
+											<div class="col-sm-4" style="border-bottom: 1px solid #f1f1f1"><h2>+10,00/mês</h2></div>
+										</div>
+									</li>
+									<li class="animate-box">
+										<div class="row">
+											<div class="col-sm-8" style="border-bottom: 1px solid #f1f1f1"><h2>Internet Banda Larga 35 Mega</h2></div>
+											<div class="col-sm-4" style="border-bottom: 1px solid #f1f1f1"><h2>+20,00/mês</h2></div>
+										</div>
+									</li>
+								</div>
 						</div>
-					</form>
+
+					</ul>
 				</div>
 			</div>
 		</div>
