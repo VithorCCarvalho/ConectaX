@@ -64,7 +64,7 @@
 
 												<div class="row form-group">
 													<div class="col-md-12">
-														<input type="submit" class="btn btn-primary" value="Consultar">
+														<input type="submit" class="btn btn-primary consultar-formulario-home" value="Consultar">
 													</div>
 												</div>
 											</form>	

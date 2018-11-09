@@ -1281,7 +1281,10 @@ form label {
   box-shadow: none !important;
   outline: none !important;
 }
-
+.consultar-formulario-home {
+  border-radius: 0 !important;
+  font-weight: 300;
+}
 .btn-primary {
   background: #dedc06;
   color: #000;

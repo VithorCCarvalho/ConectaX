@@ -7,7 +7,7 @@
 				</div>
 				<div class="col-xs-8 text-right menu-1">
 					<ul>
-						<li><a href="#">Internet</a></li>
+						<li><a href="totalplay.php">Internet</a></li>
 						<li><a href="#">Fibra</a></li>
 						<li class="has-dropdown">
 							<a href="#">Planos</a>
