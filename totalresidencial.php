@@ -13,7 +13,7 @@
 			include("nav-in.php");
 		?>
 	
-	<header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image: url(images/img_4.jpg)">
+	<header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image: url(images/fundo-residencial.jpg)">
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
@@ -22,7 +22,7 @@
 
 						<div class="col-md-7 mt-text animate-box" data-animate-effect="fadeInUp">
 							<span class="intro-text-small"></span>
-							<h1>Planos</h1>	
+							<h1>TV</h1>	
 						</div>
 						
 					</div>
@@ -35,14 +35,14 @@
 	<div class="gtco-section border-bottom">
 		<div class="gtco-container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
 					<h2>Total Residencial</h2>
 					<p>Veja o melhor da programação na sua TV</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4">
-					<div class="price-box">
+					<div class="price-box animate-box">
 						<h2 class="pricing-plan">TV Básico</h2>
 						<div class="price">R$ 194,90<small>/mês</small></div>
 						<p></p>
@@ -59,7 +59,7 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="price-box popular">
+					<div class="price-box popular animate-box">
 						<div class="popular-text">Popular</div>
 						<h2 class="pricing-plan">TV Intermediário</h2>
 						<div class="price">R$ 204,90<small>/mês</small></div>
@@ -77,7 +77,7 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="price-box">
+					<div class="price-box animate-box">
 						<h2 class="pricing-plan">TV Top</h2>
 						<div class="price">R$ 264,90<small>/mês	</small></div>
 						<p></p>

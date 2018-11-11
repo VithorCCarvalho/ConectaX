@@ -13,7 +13,7 @@
 			include("nav-in.php");
 		?>
 	
-	<header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image: url(images/img_4.jpg)">
+	<header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image: url(images/fundo-oiplay.jpg)">
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
@@ -22,7 +22,7 @@
 
 						<div class="col-md-7 mt-text animate-box" data-animate-effect="fadeInUp">
 							<span class="intro-text-small"></span>
-							<h1>Planos</h1>	
+							<h1>Internet</h1>	
 						</div>
 						
 					</div>
@@ -36,13 +36,13 @@
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>Oi Total Play</h2>
+					<h2>Total Play</h2>
 					<p>Internet de alta velocidade e milhares de filmes e séries com o Coleção OI</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4">
-					<div class="price-box">
+					<div class="price-box animate-box">
 						<h2 class="pricing-plan">Play Básico</h2>
 						<div class="price">R$ 119,90<small>/mês</small></div>
 						<p></p>
@@ -56,11 +56,11 @@
 								<img style="width: 100px; padding-top: 10px;" src="images/logo-colecao-oi-oi-play.png">
 							</li>
 						</ul>
-						<a href="#" class="btn btn-primary btn-sm">Aderir</a>
+						<a href="produto.php?plano=oiplaybasico" class="btn btn-primary btn-sm">Aderir</a>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="price-box popular">
+					<div class="price-box popular animate-box">
 						<div class="popular-text">Popular</div>
 						<h2 class="pricing-plan">Play Intermediário</h2>
 						<div class="price">R$ 139,90<small>/mês</small></div>
@@ -78,11 +78,11 @@
 								<img style="width: 80px; margin: 0 5px" src="images/crackle.png">
 							</li>
 						</ul>
-						<a href="#" class="btn btn-primary btn-sm">Aderir</a>
+						<a href="produto.php?plano=oiplayintermediario" class="btn btn-primary btn-sm">Aderir</a>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="price-box">
+					<div class="price-box animate-box">
 						<h2 class="pricing-plan">Play Top</h2>
 						<div class="price">R$ 164,90<small>/mês	</small></div>
 						<p></p>
@@ -97,7 +97,7 @@
 								<img style="width: 30px; margin: 0 5px" src="images/fox-app-traco.png">
 							</li>
 						</ul>
-						<a href="#" class="btn btn-primary btn-sm">Aderir</a>
+						<a href="produto.php?plano=oiplaytop" class="btn btn-primary btn-sm">Aderir</a>
 					</div>
 				</div>
 			</div>
@@ -172,21 +172,12 @@
 								</div>
 						</div>
 
-						<div class="row" style="border-top: 3px solid #f1f1f1; padding: 30px 0">
-						  		<div class="col-sm-8">
-						  			<li class="animate-box">
-										<h2>Confira alguns conteúdos</h2>
+						<div class="row alguns-conteudos" style="border-top: 3px solid #f1f1f1; padding: 30px 0">
+								<ul>
+									<li class="animate-box mosaic">
+										<img style="max-width: 1000px; margin: 0 auto; display: block;" src="images/highlight-mosaic-1-right.png">
 									</li>
-						  		</div>
-
-						  		<div class="col-sm-4">
-									<li class="animate-box">
-										<div class="row">
-											<div class="col-sm-4"><img style="width: 180px; vertical-align: middle;" src="images/got.png"></div>
-											<div class="col-sm-8"><img style="vertical-align: middle;" src="images/hbo-go.png"></div>
-										</div>
-									</li>
-								</div>
+								</ul>
 						</div>
 
 					</ul>

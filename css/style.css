@@ -52,13 +52,13 @@ body {
 }
 
 a {
-  color: #fb0d17;
+  color: #000;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #fb0d17;
+  color: #000;
   outline: none;
   text-decoration: none;
 }
@@ -1284,6 +1284,7 @@ form label {
 .consultar-formulario-home {
   border-radius: 0 !important;
   font-weight: 300;
+  background: linear-gradient(to right, #da2977 0%, #ec5226 100%);
 }
 .btn-primary {
   background: #dedc06;
@@ -1847,11 +1848,12 @@ form label {
   padding: 0;
 }
 .fh5co-faq-list li {
-  margin: 0 0 40px 0;
-  padding: 0;
+  margin: 0 0 10px 0;
+  padding: 10px 0;
   line-height: 1.5;
   list-style: none;
 }
+
 @media screen and (max-width: 768px) {
   .fh5co-faq-list li {
     margin: 0 0 20px 0;

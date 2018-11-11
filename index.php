@@ -36,23 +36,23 @@
 									</ul>
 									<div class="tab-content">
 										<div class="tab-content-inner active" data-content="signup">
-											<form action="#">
+											<form action="produto.php?" method="get">
 												<div class="row form-group">
 													<div class="col-md-12">
 														<label for="username">Nome Completo</label>
-														<input type="text" class="form-control" id="username">
+														<input type="text" class="form-control" name="nome">
 													</div>
 												</div>
 												<div class="row form-group">
 													<div class="col-md-12">
 														<label for="password2">Whatsapp ou Telefone</label>
-														<input type="password" class="form-control" id="password2">
+														<input type="number" class="form-control" name="whatsapp">
 													</div>
 												</div>
 												<div class="row form-group">
 													<div class="col-md-12">
 														<label for="password">Cidade</label>
-														<select class="form-control form-control-lg">
+														<select class="form-control form-control-lg" name="cidade">
 															<option value="0">Seleciona a cidade...</option>
 															<option value="Tres Corações">Tres Corações</option>
 															<option value="Tres Pontas">Tres Pontas</option>
@@ -157,7 +157,7 @@
 								<img style="width: 100px; padding-top: 10px;" src="images/logo-colecao-oi-oi-play.png">
 							</li>
 						</ul>
-						<a href="#" class="btn btn-primary btn-sm">Aderir</a>
+						<a href="produto.php" class="btn btn-primary btn-sm">Consultar</a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -179,7 +179,7 @@
 								<img style="width: 80px; margin: 0 5px" src="images/crackle.png">
 							</li>
 						</ul>
-						<a href="#" class="btn btn-primary btn-sm">Aderir</a>
+						<a href="produto.php" class="btn btn-primary btn-sm">Consultar</a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -198,7 +198,7 @@
 								<img style="width: 30px; margin: 0 5px" src="images/fox-app-traco.png">
 							</li>
 						</ul>
-						<a href="#" class="btn btn-primary btn-sm">Aderir</a>
+						<a href="produto.php" class="btn btn-primary btn-sm">Consultar</a>
 					</div>
 				</div>
 			</div>

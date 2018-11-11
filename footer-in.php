@@ -4,8 +4,7 @@
 
 				<div class="col-md-4">
 					<div class="gtco-widget">
-						<h3>About <span class="footer-logo">Splash<span>.<span></span></h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eos molestias quod sint ipsum possimus temporibus officia iste perspiciatis consectetur in fugiat repudiandae cum. Totam cupiditate nostrum ut neque ab?</p>
+						<h3>INTERAGIR, CONECTAR, MOVER, POSSIBILITAR</h3>
 					</div>
 				</div>
 
@@ -13,22 +12,21 @@
 					<div class="gtco-widget">
 						<h3>Links</h3>
 						<ul class="gtco-footer-links">
-							<li><a href="#">Knowledge Base</a></li>
-							<li><a href="#">Career</a></li>
-							<li><a href="#">Press</a></li>
-							<li><a href="#">Terms of services</a></li>
-							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="totalplay.php">Internet</a></li>
+							<li><a href="totalresidencial.php">TV</a></li>
+							<li><a href="totalconectado.php">Celular</a></li>
+							<li><a href="contato.php">Contato</a></li>
+							<li><a href="fibra.php">Fibra</a></li>
 						</ul>
 					</div>
 				</div>
 
 				<div class="col-md-4">
 					<div class="gtco-widget">
-						<h3>Get In Touch</h3>
+						<h3>Contato</h3>
 						<ul class="gtco-quick-contact">
-							<li><a href="#"><i class="icon-phone"></i> +1 234 567 890</a></li>
-							<li><a href="#"><i class="icon-mail2"></i> info@FreeHTML5.co</a></li>
-							<li><a href="#"><i class="icon-chat"></i> Live Chat</a></li>
+							<li><a href="#"><i class="icon-phone"></i>(35) 98868 1822</a></li>
+							<li><a href="#"><i class="icon-mail2"></i>consultoriaconectax@gmail.com</a></li>
 						</ul>
 					</div>
 				</div>
@@ -38,14 +36,12 @@
 			<div class="row copyright">
 				<div class="col-md-12">
 					<p class="pull-left">
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://FreeHTML5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small>
+						<small class="block">&copy; 2018</small> 
+						<small class="block">Created by Vithor Carvalho</a></small>
 					</p>
 					<p class="pull-right">
 						<ul class="gtco-social-icons pull-right">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
 							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin"></i></a></li>
 							<li><a href="#"><i class="icon-dribbble"></i></a></li>
 						</ul>
 					</p>

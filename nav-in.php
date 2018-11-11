@@ -8,13 +8,12 @@
 				<div class="col-xs-8 text-right menu-1">
 					<ul>
 						<li><a href="totalplay.php">Internet</a></li>
-						<li><a href="#">Fibra</a></li>
+						<li><a href="totalresidencial.php">TV</a></li>
 						<li class="has-dropdown">
 							<a href="#">Planos</a>
 							<ul class="dropdown">
 								<li><a href="totalplay.php">Total Play</a></li>
 								<li><a href="totalresidencial.php">Total Residencial</a></li>
-								<li><a href="totalconectado.php">Total Conectado</a></li>
 							</ul>
 						</li>
 						<li><a href="contato.php">Contato</a></li>
@@ -24,4 +23,4 @@
 			</div>
 			
 		</div>
-	</nav>
+</nav>
