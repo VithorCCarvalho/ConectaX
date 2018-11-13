@@ -36,7 +36,7 @@
 				<h2>Faça sua consulta</h2>
 				<h3><?php echo $plano; ?></h3>
 				
-				<form action="sucess.php"	method="post">
+				<form action=""	method="post">
 					<div class="group">      
 	      				<input type="text" value="<?php echo $nome; ?>" required name="nome">
 	      				<span class="bar"></span>
@@ -91,6 +91,23 @@
 	</div>
 </body>
 </html>
+<?php
+
+		include 'controller/CadastroConsulta.php';
+
+		$insert = new CadastroConsulta();
+
+		
+
+		if (!empty($_POST))
+		{
+			$dados = $insert->setDados($_POST['nome'], $_POST['telefone'], $_POST['bairro'], $_POST['bairro'], $_POST['rua'], $_POST['cidade']);
+
+			$insert->insert();
+
+		}
+
+?>
 
 
 
