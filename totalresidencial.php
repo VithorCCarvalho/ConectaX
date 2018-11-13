@@ -53,7 +53,7 @@
 							<li><div class="pricing-info-icon"><img width="26" src="images/internet-celular.svg"></div>OI WIFI Fora de casa</li>
 							<li><div class="pricing-info-icon"><img width="34" src="images/icon-oiplay.svg"></div>Coleção OI</li>
 						</ul>
-						<a href="#" class="btn btn-primary btn-sm">Aderir</a>
+						<a href="produto.php" class="btn btn-primary btn-sm">Aderir</a>
 						<hr>
 						<a href="#">Ver Grade</a>
 					</div>
@@ -71,7 +71,7 @@
 							<li><div class="pricing-info-icon"><img width="26" src="images/internet-celular.svg"></div>OI WIFI Fora de casa</li>
 							<li><div class="pricing-info-icon"><img width="30" src="images/tv.svg"></div>1 ponto pdicional prátis</li>
 						</ul>
-						<a href="#" class="btn btn-primary btn-sm">Aderir</a>
+						<a href="produto.php" class="btn btn-primary btn-sm">Aderir</a>
 						<hr>
 						<a href="#">Ver Grade</a>
 					</div>
@@ -88,7 +88,7 @@
 							<li><div class="pricing-info-icon"><img width="32" src="images/fixo.svg"></div>Telefone Fixo Ilimitado</li>
 							<li><div class="pricing-info-icon"><img width="30" src="images/tv.svg"></div>1 ponto adicional prátis</li>
 						</ul>
-						<a href="#" class="btn btn-primary btn-sm">Aderir</a>
+						<a href="produto.php" class="btn btn-primary btn-sm">Aderir</a>
 						<hr>
 						<a href="#">Ver Grade</a>
 					</div>

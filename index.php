@@ -25,8 +25,8 @@
 
 					<div class="row row-mt-15em">
 						<div class="col-md-7 mt-text animate-box" data-animate-effect="fadeInUp">
-							<span class="intro-text-small">Bem vindo à ConectaX</span>
-							<h1>Os melhores planos de Internet e TV do Brasil.</h1>	
+							<span style="margin: -45px 0 20px 0px" class="intro-text-small">Bem vindo à ConectaX</span>
+							<h1 style="margin: -10px 0">Os melhores planos de Internet e TV do Brasil.</h1>	
 						</div>
 						<div class="col-md-4 col-md-push-1 animate-box" data-animate-effect="fadeInRight">
 							<div class="form-wrap">
@@ -40,19 +40,19 @@
 												<div class="row form-group">
 													<div class="col-md-12">
 														<label for="username">Nome Completo</label>
-														<input type="text" class="form-control" name="nome">
+														<input type="text" class="form-control" name="nome" required>
 													</div>
 												</div>
 												<div class="row form-group">
 													<div class="col-md-12">
 														<label for="password2">Whatsapp ou Telefone</label>
-														<input type="number" class="form-control" name="whatsapp">
+														<input type="number" class="form-control" name="whatsapp" required>
 													</div>
 												</div>
 												<div class="row form-group">
 													<div class="col-md-12">
 														<label for="password">Cidade</label>
-														<select class="form-control form-control-lg" name="cidade">
+														<select class="form-control form-control-lg" name="cidade" required>
 															<option value="0">Seleciona a cidade...</option>
 															<option value="Tres Corações">Tres Corações</option>
 															<option value="Tres Pontas">Tres Pontas</option>
@@ -96,7 +96,7 @@
 					<a href="images/img_2.jpg" class="fh5co-project-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="images/img_2.jpg" alt="Image" class="img-responsive">
+							<img src="images/internet.jpeg" alt="Image" class="img-responsive">
 						</figure>
 						<div class="fh5co-text">
 							<h2>OI TOTAL PLAY</h2>
@@ -108,7 +108,7 @@
 					<a href="images/img_3.jpg" class="fh5co-project-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="images/img_3.jpg" alt="Image" class="img-responsive">
+							<img src="images/tv.jpg" alt="Image" class="img-responsive">
 						</figure>
 						<div class="fh5co-text">
 							<h2>OI TV RESIDENCIAL</h2>
@@ -120,7 +120,7 @@
 					<a href="images/img_4.jpg" class="fh5co-project-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="images/img_4.jpg" alt="Image" class="img-responsive">
+							<img src="images/celular.jpg" alt="Image" class="img-responsive">
 						</figure>
 						<div class="fh5co-text">
 							<h2>OI TOTAL CONECTADO</h2>
@@ -143,59 +143,56 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4">
-					<div class="price-box">
-						<h2 class="pricing-plan">Play Básico</h2>
+					<div class="price-box animate-box">
+						<h2 class="pricing-plan">Total Play</h2>
 						<div class="price">R$ 119,90<small>/mês</small></div>
 						<p></p>
 						<ul class="pricing-info">
-							<li><div class="pricing-info-icon"><img width="30" src="images/banda-larga.svg"></div>Internet 15 MB</li>
+							<li><div class="pricing-info-icon"><img width="26" src="images/banda-larga.svg"></div>Internet 15 MB</li>
 							<li><div class="pricing-info-icon"><img width="32" src="images/fixo.svg"></div>Telefone Fixo Ilimitado</li>
 							<li><div class="pricing-info-icon"><img width="26" src="images/internet-celular.svg"></div>OI WIFI Fora de casa</li>
-							<li><div class="pricing-info-icon"><img width="34" src="images/icon-oiplay.svg"></div>+ de 16 mil títulos</li>
+							<li><div class="pricing-info-icon"><img width="34" src="images/icon-oiplay.svg"></div>+ de 20 mil títulos</li>
 							
 							<li style="margin: 0 auto; text-align: center;">
 								<img style="width: 100px; padding-top: 10px;" src="images/logo-colecao-oi-oi-play.png">
 							</li>
 						</ul>
 						<a href="produto.php" class="btn btn-primary btn-sm">Consultar</a>
+						<hr>
+						<a href="totalplay.php">Veja os planos</a>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="price-box popular">
+					<div class="price-box popular animate-box">
 						<div class="popular-text">Popular</div>
-						<h2 class="pricing-plan">Play Intermediário</h2>
-						<div class="price">R$ 139,90<small>/mês</small></div>
+						<h2 class="pricing-plan">Total Residencial</h2>
+						<div class="price">R$ 204,90<small>/mês</small></div>
 						<p></p>
 						<ul class="pricing-info">
-							<li><div class="pricing-info-icon"><img width="30" src="images/banda-larga.svg"></div>Internet 15 MB</li>
+							<li><div class="pricing-info-icon"><img width="30" src="images/tv.svg"></div>168 canais 56 em HD</li>
+							<li><div class="pricing-info-icon"><img width="26" src="images/banda-larga.svg"></div>Internet 15 MB</li>
 							<li><div class="pricing-info-icon"><img width="32" src="images/fixo.svg"></div>Telefone Fixo Ilimitado</li>
 							<li><div class="pricing-info-icon"><img width="26" src="images/internet-celular.svg"></div>OI WIFI Fora de casa</li>
-							<li><div class="pricing-info-icon"><img width="34" src="images/icon-oiplay.svg"></div>+ de 30 mil títulos</li>
-							
-							<li style="margin: 0 auto; text-align: center;">
-								<img style="width: 85px; margin: 0 5px" src="images/logo-colecao-oi-oi-play.png">
-								<img style="width: 70px; margin: 0 5px" src="images/espn.png">
-								<img style="width: 70px; margin: 0 5px" src="images/discovery-kids.png">
-								<img style="width: 80px; margin: 0 5px" src="images/crackle.png">
-							</li>
+							<li><div class="pricing-info-icon"><img width="30" src="images/tv.svg"></div>1 ponto adicional prátis</li>
 						</ul>
-						<a href="produto.php" class="btn btn-primary btn-sm">Consultar</a>
+						<a href="produto.php?plano=oiresidencialintermediario" class="btn btn-primary btn-sm">Consultar</a>
+						<hr>
+						<a href="totalresidencial.php">Veja os planos</a>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="price-box">
-						<h2 class="pricing-plan">Play Top</h2>
+					<div class="price-box animate-box">
+						<h2 class="pricing-plan">Conectado Light</h2>
 						<div class="price">R$ 164,90<small>/mês	</small></div>
 						<p></p>
 						<ul class="pricing-info">
-							<li><div class="pricing-info-icon"><img width="30" src="images/banda-larga.svg"></div>Internet 15 MB</li>
-							<li><div class="pricing-info-icon"><img width="32" src="images/fixo.svg"></div>Telefone Fixo Ilimitado</li>
-							<li><div class="pricing-info-icon"><img width="26" src="images/internet-celular.svg"></div>OI WIFI Fora de casa</li>
-							<li><div class="pricing-info-icon"><img width="34" src="images/icon-oiplay.svg"></div>Canais Intermediário +</li>
-							
+							<li><div class="pricing-info-icon"><img width="26" src="images/banda-larga.svg"></div>Internet 15 MB</li>
+							<li><div class="pricing-info-icon"><img width="24" src="images/internet-celular.svg"></div>Ligações Ilimitadas no Celular</li>
+							<li><div class="pricing-info-icon"><img width="24" src="images/internet-celular.svg"></div>8gb Internet Celular</li>
+							<li><div class="pricing-info-icon"><img width="30" src="images/icon-oiplay.svg"></div>+ de 20 mil títulos</li>
+
 							<li style="margin: 0 auto; text-align: center;">
-								<img style="width: 70px; margin: 0 5px" src="images/hbo-go.png">
-								<img style="width: 30px; margin: 0 5px" src="images/fox-app-traco.png">
+								<img style="width: 100px; padding-top: 10px;" src="images/logo-colecao-oi-oi-play.png">
 							</li>
 						</ul>
 						<a href="produto.php" class="btn btn-primary btn-sm">Consultar</a>

@@ -38,12 +38,12 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="col-md-6 animate-box">
-					<h3>Get In Touch</h3>
+					<h3>Preencha o formulário</h3>
 					<form action="#">
 						<div class="row form-group">
 							<div class="col-md-12">
-								<label class="sr-only" for="name">Name</label>
-								<input type="text" id="name" class="form-control" placeholder="Your firstname">
+								<label class="sr-only" for="name">Nome</label>
+								<input type="text" id="name" class="form-control" placeholder="Nome">
 							</div>
 							
 						</div>
@@ -51,25 +51,25 @@
 						<div class="row form-group">
 							<div class="col-md-12">
 								<label class="sr-only" for="email">Email</label>
-								<input type="text" id="email" class="form-control" placeholder="Your email address">
+								<input type="text" id="email" class="form-control" placeholder="Email">
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-12">
-								<label class="sr-only" for="subject">Subject</label>
-								<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+								<label class="sr-only" for="subject">Assunto</label>
+								<input type="text" id="subject" class="form-control" placeholder="Assunto">
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-12">
-								<label class="sr-only" for="message">Message</label>
-								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Write us something"></textarea>
+								<label class="sr-only" for="message">Menssagem</label>
+								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Menssagem"></textarea>
 							</div>
 						</div>
 						<div class="form-group">
-							<input type="submit" value="Send Message" class="btn btn-primary">
+							<input type="submit" value="Enviar" class="btn btn-primary">
 						</div>
 
 					</form>		
@@ -77,12 +77,11 @@
 				<div class="col-md-5 col-md-push-1 animate-box">
 					
 					<div class="gtco-contact-info">
-						<h3>Contact Information</h3>
+						<h3>Informações de contato</h3>
 						<ul>
-							<li class="address">198 West 21th Street, <br> Suite 721 New York NY 10016</li>
-							<li class="phone"><a href="tel://1234567920">+ 1235 2355 98</a></li>
-							<li class="email"><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-							<li class="url"><a href="http://FreeHTML5.co">FreeHTML5.co</a></li>
+							<li class="address">Rua Carajas, 276, Parque São José<br> Três Corações - MG</li>
+							<li class="phone"><a href="tel://35988681822">(35) 988681822</a></li>
+							<li class="email"><a href="mailto:consultoriaconectax@gmail.com">consultoriaconectax@gmail.com</a></li>
 						</ul>
 					</div>
 

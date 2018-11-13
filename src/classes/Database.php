@@ -1,8 +1,8 @@
 <?php
 
-require_once 'config.php';
+require_once './src/init.php';
 
-class DB{
+class Database{
 
 	private static $instance;
 

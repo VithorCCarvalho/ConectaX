@@ -36,7 +36,7 @@
 				<h2>Faça sua consulta</h2>
 				<h3><?php echo $plano; ?></h3>
 				
-				<form action=""	method="post">
+				<form action="sucess.php"	method="post">
 					<div class="group">      
 	      				<input type="text" value="<?php echo $nome; ?>" required name="nome">
 	      				<span class="bar"></span>
@@ -85,29 +85,7 @@
 				  	<li class=""><span class="ti-check" style="margin: 0 10px"></span> OI WIFI Fora de Casa</li>
 				  	<li class=""><span class="ti-check" style="margin: 0 10px"></span> Roteador Grátis</li>
 				</ul>
-<?php
 
-		include 'src/classes/CadastroConsulta.php';
-
-		$insert = new CadastroConsulta();
-
-		
-
-		if (!empty($_POST))
-		{
-			$dados = $insert->setDados($_POST['nome'], $_POST['telefone'], $_POST['bairro'], $_POST['bairro'], $_POST['rua'], $_POST['cidade']);
-
-			$insert->insert();
-
-		}
-
-
-
-
-
-
-
-?>
 			</div>
 		</div>
 	</div>

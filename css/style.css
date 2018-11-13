@@ -18,7 +18,9 @@ body {
   color: #777;
   background: #ececec;
 }
-
+#gtco-offcanvas {
+  font-size: 25px;
+}
 #page {
   position: relative;
   overflow-x: hidden;
@@ -297,7 +299,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #gtco-header h1 {
     font-size: 34px;
     line-height: 1.2;
-    margin-bottom: 10px;
+    margin: 30px 0 -45px 0;
   }
 }
 #gtco-header h2 {
@@ -448,7 +450,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .gtco-cover {
-  height: 900px;
+  height: 850px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1061,7 +1063,7 @@ form label {
   transform: translateX(0px);
 }
 #gtco-offcanvas a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.79)
 }
 #gtco-offcanvas a:hover {
   color: rgba(255, 255, 255, 0.8);
@@ -1086,6 +1088,7 @@ form label {
 #gtco-offcanvas ul li.offcanvas-has-dropdown > a:after {
   position: absolute;
   right: 0px;
+  top:10px;
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
@@ -1836,7 +1839,8 @@ form label {
   margin: 0 0 30px 0;
 }
 .pricing-info li {
-    padding: 10px 15px;
+    padding: 10px 0;
+    font-size: 15px;
     border-top: 1px solid #eae9e9;
     margin: 0;
     list-style: none;

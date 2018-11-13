@@ -1,6 +1,6 @@
 <?php
 
-require_once 'Crud.php';
+require_once './src/classes/Crud.php';
 
 class CadastroConsulta extends Crud 
 {
@@ -24,7 +24,7 @@ class CadastroConsulta extends Crud
 	{
 
 		$sql  = "INSERT INTO $this->table (data, nomecliente, telefone, bairro, rua, cidade) VALUES (:data, :nome, :telefone, :bairro, :rua, :cidade)";
-		$stmt = DB::prepare($sql);
+		$stmt = Database::prepare($sql);
 		$data = date('Y-m-d H:i:s', time());
 		$stmt->bindParam(':data', $data);
 		$stmt->bindParam(':nome', $this->nome);
@@ -40,7 +40,7 @@ class CadastroConsulta extends Crud
 	public function update($id)
 	{
 		$sql  = "UPDATE $this->table SET nome = :nome, email = :email WHERE id = :id";
-		$stmt = DB::prepare($sql);
+		$stmt = Database::prepare($sql);
 		$stmt->bindParam(':nome', $this->nome);
 		$stmt->bindParam(':email', $this->email);
 		$stmt->bindParam(':id', $id);

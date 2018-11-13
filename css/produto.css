@@ -8,7 +8,7 @@ body {
 .boxleftconsulta {
 	width: 50%;
 	height: 100%;
-	padding: 75px 25px;
+	padding: 30px 20px;
 }
 .boxrightconsulta {
 	width: 50%;
@@ -23,7 +23,7 @@ body {
 	display: block;
 	color: #fff;
 	letter-spacing: -1px;
-	padding: 75px 50px;
+	padding: 30px 50px;
 }
 .boxrightconsulta h2 {
 	text-transform: uppercase;
