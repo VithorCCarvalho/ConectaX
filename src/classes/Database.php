@@ -1,6 +1,6 @@
 <?php
 
-require_once './src/init.php';
+require_once '../init.php';
 
 class Database{
 

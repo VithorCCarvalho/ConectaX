@@ -2,6 +2,7 @@
 		$title = "ConectaX";
 
 		include("head-in.php");
+		include("controller/Cidades.php");
 	?>
 	
 	<body>
@@ -53,11 +54,21 @@
 													<div class="col-md-12">
 														<label for="password">Cidade</label>
 														<select class="form-control form-control-lg" name="cidade" required>
-															<option value="0">Seleciona a cidade...</option>
-															<option value="Tres Corações">Tres Corações</option>
-															<option value="Tres Pontas">Tres Pontas</option>
-															<option value="Alfenas">Alfenas</option>
-															<option value="Passos">Passos</option>
+														<option value="0">Seleciona a cidade...</option>
+														<?php
+															$cidades = new Cidades;
+															$cidades->setEstado('MG');
+															foreach ($cidades->getCidades() as $cidade):
+																
+														?>
+
+															<option value="<?php echo $cidade; ?>"><?php echo $cidade; ?></option>
+														
+														<?php
+
+															endforeach;
+
+														?>
 														</select>
 													</div>
 												</div>

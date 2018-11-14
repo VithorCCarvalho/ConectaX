@@ -10,20 +10,22 @@ class CadastroConsulta extends Crud
 	public $telefone;
 	public $bairro;
 	public $rua;
+	public $numero;
 	public $cidade;
 
-	public function setDados($nome, $telefone, $bairro, $rua, $cidade)
+	public function setDados($nome, $telefone, $bairro, $rua, $numero, $cidade)
 	{
 		$this->nome = trim(preg_replace("/[^a-zA-Z0-9\s]/", "", $nome));
 		$this->telefone = trim(preg_replace("/[^a-zA-Z0-9\s]/", "", $telefone));
 		$this->bairro = trim(preg_replace("/[^a-zA-Z0-9\s]/", "", $bairro));
 		$this->rua = trim(preg_replace("/[^a-zA-Z0-9\s]/", "", $rua));
-		$this->cidade = trim(preg_replace("/[^a-zA-Z0-9\s]/", "", $cidade));
+		$this->numero = trim(preg_replace("/[^a-zA-Z0-9\s]/", "", $numero));
+		$this->cidade = $cidade;
 	}
 	public function insert()
 	{
 
-		$sql  = "INSERT INTO $this->table (data, nomecliente, telefone, bairro, rua, cidade) VALUES (:data, :nome, :telefone, :bairro, :rua, :cidade)";
+		$sql  = "INSERT INTO $this->table (data, nomecliente, telefone, bairro, rua, numero, cidade) VALUES (:data, :nome, :telefone, :bairro, :rua, :numero, :cidade)";
 		$stmt = Database::prepare($sql);
 		$data = date('Y-m-d H:i:s', time());
 		$stmt->bindParam(':data', $data);
@@ -31,6 +33,7 @@ class CadastroConsulta extends Crud
 		$stmt->bindParam(':telefone', $this->telefone);
 		$stmt->bindParam(':bairro', $this->bairro);
 		$stmt->bindParam(':rua', $this->rua);
+		$stmt->bindParam(':numero', $this->numero);
 		$stmt->bindParam(':cidade', $this->cidade);
 
 		return $stmt->execute(); 

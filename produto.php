@@ -57,14 +57,27 @@
 	      				<span class="bar"></span>
 	      				<label>Rua</label>
     				</div>
+    				<div class="group">      
+	      				<input type="text" required name="numero">
+	      				<span class="bar"></span>
+	      				<label>Número</label>
+    				</div>
     				<div class="row form-group">
 						<div class="col-md-12">
 							<select class="form-control select-cidades" value="<?php echo $cidade; ?>" name="cidade">
-								<option value="0">Selecione a cidade...</option>
-								<option value="Tres Corações">Tres Corações</option>
-								<option value="Tres Pontas">Tres Pontas</option>
-								<option value="Alfenas">Alfenas</option>
-								<option value="Passos">Passos</option>
+								<option value="<?php echo $_GET['cidade']; ?>"><?php echo $_GET['cidade']; ?></option>
+							<?php
+								include "controller/Cidades.php";
+
+								$cidade = new Cidades;
+								$cidade->setEstado('MG');
+
+								foreach($cidade->getCidades() as $cidade):
+							?>
+								<option value="<?php echo $cidade; ?>"><?php echo $cidade; ?></option>
+							<?php
+								endforeach;
+							?>
 							</select>
 						</div>
 					</div>
@@ -101,7 +114,7 @@
 
 		if (!empty($_POST))
 		{
-			$dados = $insert->setDados($_POST['nome'], $_POST['telefone'], $_POST['bairro'], $_POST['bairro'], $_POST['rua'], $_POST['cidade']);
+			$dados = $insert->setDados($_POST['nome'], $_POST['telefone'], $_POST['bairro'], $_POST['rua'], $_POST['numero'], $_POST['cidade']);
 
 			$insert->insert();
 
